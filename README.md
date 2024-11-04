@@ -49,10 +49,17 @@ export default writable(0)
 ### Para el ejemplo
 
 **1** 
+
 abrir mailchimp > mostrar los contactos
+
 **2** 
+
 ir a svelte > montar svelte y el back > agegar un subscriptor
+
 **3** 
+
 ir a mailchimp > mostrar la lista actualizada > crear una campaña nueva (esto luego quiero que haga automáticamente el back) dejarla en borrador
+
 **4** 
+
 ir a postman > ver el id de la campaña > copiarla y pegarla en la app demo
