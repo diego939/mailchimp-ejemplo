@@ -11,7 +11,7 @@ app.use(cors()); // Habilita CORS
 app.use(bodyParser.json());
 
 // Configura tus credenciales de Mailchimp
-const API_KEY = '0bbed3f84049549a184b9e17dbcb4564-us8';
+const API_KEY = 'c7028a90f752d8ea83d37092ac26f46b-us8';
 const LIST_ID = '6201359ece';
 const DATACENTER = 'us8'; // Cambia esto a tu datacenter de Mailchimp
 const CAMPAIGN_ID = 'c4bf77c632'; // ID de la campaña

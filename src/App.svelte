@@ -13,9 +13,11 @@
       body: JSON.stringify({ email }),
     });
 
+    
+
     if (response.ok) {
       alert('Suscriptor agregado con éxito');
-      email = ''; // Asegúrate de limpiar el campo correcto
+      email = '';
     } else {
       alert('Error al agregar suscriptor');
     }
