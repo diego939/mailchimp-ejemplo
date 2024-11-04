@@ -45,3 +45,10 @@ If you have state that's important to retain within a component, consider creati
 import { writable } from 'svelte/store'
 export default writable(0)
 ```
+
+### Para el ejemplo
+
+abrir mailchimp > mostrar los contactos
+ir a svelte > montar svelte y el back > agegar un subscriptor
+ir a mailchimp > mostrar la lista actualizada > crear una campaña nueva (esto luego quiero que haga automáticamente el back) dejarla en borrador
+ir a postman > ver el id de la campaña > copiarla y pegarla en la app demo
